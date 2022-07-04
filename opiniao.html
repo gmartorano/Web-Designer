@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Pesquisa de Opinião</title>
+		<!--[if çt IE9]>
+		<script src="hhtp://html5shiv.googlecode.com/svn/trunk/html5.is"></script>
+		<"[endif]-->
+		<style>
+			*{font-family:Arial}
+			body{background-color:#eaeaea;}
+			div{width:600px; margin:0px auto; background-color:#ffffff; padding:20px:}
+			h1{margin-top:opx; txt-align:center;}
+			legend{font-size:12px; color:#999999;}
+			label{width:120px; float;left; line-height:33px;clear:left;}
+			input [type="txt"]{width:400px; padding?5px; margin:2px; border:1px solid #999999; border-radius:4px; float:left;}
+			input [type="email"]{width:400px; padding?5px; margin:2px; border:1px solid #999999; border-radius:4px; float:left;}
+			input [type="number"]{width:400px; padding?5px; margin:2px; border:1px solid #999999; border-radius:4px; float:left;}
+			select{width:412px; padding:5px; margin:2px; border:1px solid #999999; border-radius:4px; float:left;}
+			textarea{width:520px; padding:5px; margin:2px; border:1px solid #999999; border-radius:4px;}
+			fieldset{margin-botton:15px;}
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Pesquina de Opinião Cinemax<h1>
+			</header>
+			<section>
+				<form action="#">
+					<fieldset>
+						<legend>DADOS PESSOAIS</legend>
+						<label for="txtName">Nome:</label>
+						<input type="text" id="txtNome"/><br/>
+						<label type="txtSex">Sexo:</label>
+						<select>
+							<option>Feminino</option>
+							<option>Masculino</option>
+						</select><br/>
+						<label type="txtEmail">Email:</label>
+						<input type="email" id="txtEmail"/><br/>
+						<label type="txtFone">Telefone:</label>
+						<input type="text" id="txtFone"/><br/>
+					</fieldset>
+					
+					<fieldset>
+						<legend>OPINIÃO SOBRE ATENDIMENTO E INSTALAÇÕES</legend>
+						Nos avalie dando nota de 0 a 10.<br/>
+						<label type="txtSalas">Salas:</label>
+						<input type="number" id="txtNotaSalas" min="0" max="10"><br/>
+						<label type="txtProg">Programação:</label>
+						<input type="number" id="txtNotaProg" min="0" max="10"><br/>
+						<label type="txtAtend">Atendimento:</label>
+						<input type="number" id="txtNotaAtend" min="0" max="10"><br/>
+						<label type="txtConv">Conveniência:</label>
+						<input type="number" id="txtNotaConv" min="0" max="10"><br/>
+					</fieldset>
+					
+					<fieldset>
+						<legend>CONSIDERAÇÕES FINAIS</legend>
+						Deixe aqui sua mensagem para nós<br/>
+						<textarea rows="7" cols="50"></textarea><br/>
+						<input type="checkbox" id="ckbAceitar" checked />Aceito receber ofertas e novidades da rede Cinemax.<br/>
+						<input type="checkbox" id="ckbAceitar" checked />Aceito receber ofertas e novidades dos parceiros Cinemax.<br/>
+					</fieldset>
+					<input type="submit" value="Enviar Formulário"/>
+					<input type="reset" value="Resetar Formulário"/>
+				</form>
+			</section>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+﻿#quadro{
+	width:280px;
+	height:230px;
+	border: solid 1px #93d0ff;
+	background:#e7f5ff;
+	text-align:center;
+	font-family:arial;
+	padding:10px;
+}
+
+.acesso{
+	font-weight:bold;
+	font-size:16px;
+	margin-top:0px;
+}
+
+#quadro label{
+	width:110px;
+	font-size:13px;
+	text-align:right;
+	float:left;
+	margin-top:3px;
+}
+
+.exemplo{
+	font-size:13px;
+	color:#999999;
+	margin:1px 0px 1px 10px;
+}
+
+.botao{
+	margin:20px 0x 20px 0px;
+}
+
+.link{
+	font-size:11px;
+}

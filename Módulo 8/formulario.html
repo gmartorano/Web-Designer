@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Tabloide da Vila</title>
+	</head>
+	<body style="background-color:#FFDFBF;font-family:Arial;color:#8C0023;">
+		<header style="background-color:#8C0023;color:#FFFFFF;text-align:center;">
+			<h1 style="margin:0px">Tabloide da Vila</h1>
+			<h2 style="margin:0px">Tudo que acontece na Vila das Flores</h2>
+		</header>
+		<section style="background-color:#FFFFFF;color:#333333;margin:0px;padding:10px;">
+			<h3 style="margin:0px">Entre em contato conosco!</h3>
+			<p style="margin:0px 0px 15px 0px">Preencha o formulário abaixo para entrar em contato conosco!</p>
+			
+			<form action="enviado.html">
+				<label for="txtNome">Nome:</label><input type="text" id="textNome"/><br/>
+				<label for="txtEmail">E-mail:</label><input type="text" id="textEmail"/><br/>
+				É morador?:
+				<input type="radio" id="radsim" name="radMorador"/><label for="radSim">Sim</label>
+				-
+				<input type="radio" id="radNão" name="radMorador"/><label for="radNão">Não</label><br/>
+				<label for="txtMensagem">Sua mensagem:</label><input type="text" id="textMensagem"/><br/>
+				<br/>
+				<br/>
+				<input type="submit" value="Enviar Formulário" id="btnEnviar"> - <input type="reset" id="btnResetar"/>
+			</form>
+		</section>
+		<footer style="background-color:#8C0023;color:#FFFFFF;text-align:center;">
+			<img src="viladasflores.png" alt="Vila das Flores"/><p style="margin:0px">Site de notícias do residencial Vila das Flores.</p>
+		</footer>
+	</body>
+</html>

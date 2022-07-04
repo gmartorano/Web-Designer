@@ -1,0 +1,78 @@
+﻿body{
+	min-width:960px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#F4A460;F4A460
+	color:#36352e;
+	margin:0px;
+}	
+
+#container{
+	width:900px;
+	margin:0px auto;
+	height:100%;
+}	
+
+#corpo{
+	background-color:#F5DEB3;
+	float:right;
+	width:880px;
+	min-height:400px;
+	padding:10px;
+}
+
+.titulo{
+	font-size:16px;
+	margin-bottom:20px 0px 0px 0px;
+	color:#78776e;
+}
+
+#corpo fieldset{
+	border:1px solid #d40af;
+	padding: 5px;
+	width: 500px;
+	margin: 0px auto;
+}
+
+#corpo fieldset label{
+	float: left;
+	width: 80px;
+	font-size: 15px;
+}
+
+#corpo fieldset input{
+	float: left;
+	clear: right;
+	width:400px;
+	padding:5px;
+	border:solid 1px #eeede7;
+	margin-bottom: 5px;
+}
+
+#corpo fieldset textarea{
+	float: left;
+	clear:right;
+	width:400px;
+	height:100px;
+	padding:5px;
+	border:solid 1px #eeede7;
+	margin-bottom:5px;
+	max-width:400px;
+	max-height:100px;
+	min-width:400px;
+	min-height:100px;
+}
+	
+#contato fieldset .enviar{
+	clear:both;
+	margin:5px 10px 5px 410px;
+	background-color:#eae9df;
+	border:groove 1px #d4d2c7;
+	width:80px;
+	color:#000000;
+	cursor:pointer;
+}
+
+#contato fieldset .enviar:active{
+	background-color:#d4d2c7;
+}

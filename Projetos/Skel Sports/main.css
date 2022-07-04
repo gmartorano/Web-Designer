@@ -1,0 +1,134 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+	margin:0 auto;
+	width:922px;
+	
+}
+#faux {
+	background-color:#ffffff;
+	margin-bottom:5px;
+	width:100%;
+}
+#header {
+	color:#eaeaea;
+	padding:0px;
+	margin: 10px 0px 5px 0px;
+}
+#navigation {
+	color:#ffffff;
+	padding:10px;
+	margin:0px 0px 5px 0px;
+	background-color:#9ACD32;
+	text-align:center;
+}
+#column { 
+	color:#333333;
+	margin:1%;
+	padding:1%;
+	width:96%;
+	background-color:#ffffff;
+	position:relative;
+}
+
+#footer { 
+	height:200px;
+	width:902px;
+	clear:both;
+	color:#ffffff;
+	background-color:#9ACD32;
+	margin: 0px 0px 10px 0px;
+	padding:10px;
+	bottom:0px;
+}
+
+#footer img{
+	margin-left:5%;
+	margin-top:15px;
+}
+
+#navigation li{
+	display:inline;
+}
+
+#navigation li a:link{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:#6B8E23;
+	padding:10px 20px 10px 20px;
+}
+
+#navigation li a:hover{
+	color:#072441;
+	background-color:#ffffff;
+	padding:10px 20px 10px 20px;
+}
+
+#navigation li a:visited{
+	color:#ffffff;
+}
+
+#destaque{
+	width:260px;
+	height:380px;
+	margin-left:312px;
+	float:center;
+}
+
+#esq_cima{
+	width:260px;
+	height:180px;
+	float:left;
+}
+
+#dir{
+	width:260px;
+	height:180px;
+	float:right;
+}
+
+#esq_baixo{
+	width:260px;
+	height:180px;
+	border:1px solid #999999;
+	float:left;
+	bottom:64px;
+	position: absolute;
+}
+
+.cont{
+	width:250px;
+	height:250px;
+	min-width:250px;
+	margin-top:20px;
+	float:left;
+	text-align:center;
+	font-size:11px;
+}
+
+.separador{
+	width:1px;
+	height:150px;
+	min-width:1px;
+	margin-left:37px;
+	margin-right:37px;
+	float:left;
+	background-color:#080b51;
+}
+
+.clear { clear: both; background: none; }

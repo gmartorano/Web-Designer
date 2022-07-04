@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Dados Pessoais</title>
+	</head>
+	<body style="background-color:#cbcbcb;font-family:Arial;color:#8C0023;">
+		<header style="background-color:#494949;color:#FFFFFF;text-align:center; height:90px; padding-top:20px">
+			<h1 style="margin:0px">CURRÍCULO</h1>
+			<h2 style="margin:0px">Cadastre aqui seu currículo em nossa empresa.</h2>
+		</header>
+		<section style="background-color:#FFFFFF;color:#333333;margin:0px;padding:30px;">
+			<h3 style="margin:0px">Ficha de Dados</h3>
+			<p style="margin:0px">Preencha a ficha de dados para que nossa empresa armazene suas informações.</p>
+			<br />
+			<br />
+			<br />
+			
+			<form action="enviado.html">
+				<label for="txtNome">Nome:</label><input type="text" id="txtNome"/>
+				<br/>
+				<br/>
+				<label for="txtEmail">E-mail:</label><input type="text" id="txtEmail"/>
+				<br/>
+				<br/>
+				<label for="txtEndereco">Endereço:</label><input type="text" id="txtEndereco"/>
+				<br/>
+				<br/>
+				<label for="txtFone">Telefone:</label><input type="text" id="txtFone"/>
+				<br/>
+				<br/>
+				Sexo:
+				<input type="radio" id="radMasc" name="radSexo" /><label for="radMasc">Masculino</label>
+				-
+				<input type="radio" id="radFem" name="radSexo"/><label for="radFem">Feminino</label>
+				<br/>
+				<br/>
+				<input type="submit" value="Enviar Formulário" id="btnEnviar"/>
+				-
+				<input type="reset" id="btnResetar"/>
+			</form>
+		</section>
+	</body>
+</html>

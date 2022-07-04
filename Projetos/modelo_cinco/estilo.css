@@ -1,0 +1,85 @@
+*  {
+    margin:0;
+    padding:0;
+}
+html, body {
+	height:100%;
+	background-image:url(fundo.jpg);
+	background-repeat:repeat;
+	background-color:#000066;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.geral {
+    min-height:100%;
+    position:relative;
+	min-width:920px;
+}
+#corpo{
+	background-color:#ffffff;
+	width:900px;
+	margin:0 auto; 
+	overflow:hidden;
+	padding-bottom:400px;
+}
+.cont{
+	width:250px;
+	height:250px;
+	min-width:250px;
+	min-height:250px;
+	margin-top:20px;
+	float:left;
+	text-align:center;
+	font-size:11px;
+}
+.separador{
+	width:1px;
+	height:300px;
+	min-width:1px;
+	min-height:300px;
+	margin-left:37px;
+	margin-right:37px;
+	float:left;
+	background-color:#080b51;
+}
+.cabecalho{
+	font-size:100px;
+	color:#000033;
+	text-align:center;
+}
+#centraliza{
+	width:900px;
+	min-width:900px;
+	float:center;
+	margin:0 auto;
+}
+#rodape {
+	background-image:url(highlight.png);
+    position:absolute;
+    bottom:0;
+    width:100%;
+	height:300px;
+	color:#ffffff;
+	border-top: solid 1px #080b51;
+}
+#galeria{
+	width:900px;
+	min-width:900px;
+	background-color:#ffffff;
+	margin:0 auto;
+	float:center;
+	padding-left:3px;
+	padding-top:8px;
+}
+.produtos{
+	width:200px;
+	height:200px;
+	min-width:200px;
+	min-height:200px;
+	background-color:#ffffff;
+	border:solid 1px #000099;
+	margin:8px 0px 10px 17px;
+	float:left;
+	text-align:center;
+	line-height:200px;
+}
+/* Crie as classes necessárias abaixo */

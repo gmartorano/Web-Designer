@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			*{font-family:arial}
+			body{background-color:#f0f0f0;}
+			div{width:580px; margin:0px auto; padding:20px; background-color:#ffffff;overflow:auto;}
+			header{margin-bottom:20px; background-color:#00BFFF; color:#ffffff; padding:15px;}
+			h1{margin:0px;text-align:center;}
+			label{width:150px; float:left; font-weight:bold; line-height:35px;}
+			input{width:400px; padding:5px; margin:5px; border:1px solid #666666; border-radius:3px; float:left;}
+			select{width:411px; padding:5px; margin:5px; border:1px solid #666666; border-radius:3px; float:left;}
+			textarea{width:400px; padding:5px; margin:5px; border:1px solid #666666; border-radius:3px; float:left;}
+			input[type="submit"], [type="reset"]{width:130px;margin:0px 5px 0px 5px;}
+			.centraliza{width:280px; margin:0px auto;}
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Fale Conosco! [@] StarCELL</h1>
+			</header>
+			<section>
+				<form action="#">
+					<label for="txtNome">Nome:</label>
+					<input type="text" id="txtNome"/>
+					
+					<label for="txtEmail">Email:</label>
+					<input type="email" id="txtEmail"/>
+					
+					<label for="txtTelefone">Telefone:</label>
+					<input type="text" id="txtTelefone"/>
+					
+					<label for="slctSetor">Setor desejado:</label>
+					<select id="slctSetor">
+						<option>SUPORTE TÉCNICO</option>
+						<option>COMERCIAL</option>
+						<option>GERÊNCIA</option>
+					</select>
+					
+					
+					<label for="txtMsg">Mensagem:</label>
+					<textarea id="txtMsg"></textarea>
+					
+					<div class="centraliza">
+						<input type="submit" value="Enviar" id="btnEnviar"/>
+						<input type="reset" value="Resetar" id="btnReset"/>
+					</div>
+				</form>
+			</section>
+		</div>
+	</body>
+</html>

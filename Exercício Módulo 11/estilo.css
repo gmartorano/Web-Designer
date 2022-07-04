@@ -1,0 +1,115 @@
+*{
+	margin:0px;
+}
+body{
+	background:url(imagens/fundo2.jpg);
+	font-family:'Arial',serif;
+	min-width:950px;
+}
+header{
+	width:900px;
+	height:300px;
+	border-radius:0px 0px 10px 10px;
+	background:url(imagens/fundo1.jpg);
+	margin:0px auto 15px auto;
+}
+h1{
+	width:900px;
+	text-align:center;
+	line-height:290px;
+	font-size:72px;
+	font-weight:normal;
+	text-shadow:2px 2px #595959;
+	color:#ffff99;
+}
+div{
+	width:900px;
+	margin:0px auto;
+}
+aside{
+	background-color:#C6FFB3;
+	width:215px;
+	border-radius:10px;
+	float:left;
+	padding:5px;
+}
+aside ul{
+padding:0px
+}
+aside ul li{
+	padding:2px;
+	border-bottom:1px dashed #E1B373;
+	list-style-type:none;
+}
+aside ul li:last-child{
+	margin-bottom:50px;
+}
+aside ul li a:link, a:visited{
+	color:#402000;
+	text-decoration:none;
+}
+aside ul li a:hover{
+	color:#8D4400;
+	padding-left:2px;
+}
+section{
+	background-color:#ffffff;
+	width:645px;
+	border-radius:10px 10px 0px 0px;
+	float:right;
+	padding:5px;
+}
+footer{
+	background-color:#ffffff;
+	width:645px;
+	border-radius:0px 0px 10px 10px;
+	float:right;
+	padding:5px;
+}
+footer p{
+	font-size:12px;
+	text-align:center;
+	border-top:1px dashed #ABABAB;
+	color:#ABABAB;
+}
+table, td, th{
+	border:solid 1px #5F5F5F;
+	padding:0px;
+	margin:10px; 
+}
+thead{
+	color:#ffffff;
+	background-color:#ABABAB;
+}
+tfoot{
+	color:#808080;
+	font-size:12px;
+	background-color:#DEDEDE;
+}
+form{
+	margin-top:20px;
+}	
+form label{
+	float:left;
+	width:100px;
+	padding:5px;
+	clear:left;
+}
+form input[type="text"]{
+	float:left;
+	width:400px;
+	padding:5px;
+}
+form textarea{
+	float:left;
+	width:400px;
+	padding:5px;
+}
+form input[type="submit"]{
+	float:left;
+	clear:both;
+	margin-left:110px;
+	margin-top:10px;
+	width:100px;
+	padding:5px;
+}

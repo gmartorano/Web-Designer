@@ -1,0 +1,54 @@
+﻿.reviews{
+	color:#ff9000;
+	font-size:30px;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	margin:0px 0px 10px 10px;
+}
+
+.quadro{
+	width:220px;
+	margin:0px 10px 0px 10px;
+	float:left;
+	font-family:Trebuchet MS;
+}
+
+.quadro h2{
+	font-size:15px;
+	font-weight:normal;
+	margin:0px;
+}
+
+.quadro img{
+	margin-bottom:10px;
+}
+
+.quadro p{
+	font-size:14px;
+	color:#999999;
+	font-weight:normal;
+	margin:5px 0px 0px 0px;
+}
+
+.maisacesso{
+	font-size:20px;
+	color:#999999;
+	font-weight:normal;
+	font-family:Trebuchet MS;
+	margin:0px;
+	border-bottom:solid 1px #999999;
+}
+
+.quadro ul{
+	height:15px;
+	list-style:none;
+	float:left;
+	color:#999999;
+	padding:0px;
+}
+
+.quadro ul li{
+	border-bottom:dotted 1px #999999;
+	width:220px;
+	padding:1px 0px 1px 0px;
+}

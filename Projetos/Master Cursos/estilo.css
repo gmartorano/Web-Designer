@@ -1,0 +1,124 @@
+﻿body{
+	min-width: 960px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #B9D3EE repeat-x;
+	color: #36352e;
+	margin: 0px;
+}
+
+#container{
+	width: 900px;
+	min-width: 900px;
+	margin: 0px auto;
+	border-left: 2px groove #b19e90;
+	border-right: 2px groove #b19e90;
+}
+
+#corpo{
+	width: 870px;
+	padding: 15px 15px 30px 15px;
+	background: #CAE1FF;
+	clear: both;
+	float: left;
+}
+
+/* INSIRA O CSS ABAIXO! */
+
+#tituloAprovados{
+	width:225px;
+	padding:3px 0px 3px 0px;
+	background:#1874CD;
+	border:1px groove #b19e90;
+	color:#ffffff;
+	font-weight:bold;
+	padding: left 10px;
+	float:left;
+	clear:left;
+}
+
+#tituloDesaprovados{
+	width:225px;
+	padding:3px 0px 3px 0px;
+	background:#1874CD;
+	border:1px groove #b19e90;
+	color:#ffffff;
+	font-weight:bold;
+	padding: left 10px;
+	float:right;
+	clear:right;
+}
+
+#listaAprov{
+	width:205px;
+	height:200px;
+	padding:10px;
+	background:#ffffff;
+	border:1px groove #b19e90;
+	clear:left;
+	overflow:auto;
+}
+
+#listaDesap{
+	width:205px;
+	height:200px;
+	padding:10px;
+	background:#ffffff;
+	border:1px groove #b19e90;
+	float:right;
+	clear:right;
+	overflow:auto;
+}
+
+#tituloPedido{
+	width:870px;
+	padding:3px 0px 3px 0px;
+	background:#1874CD;
+	border:1px groove #b19e90;
+	color:#ffffff;
+	font-weight:bold;
+	padding:10px;
+	float:right;
+	margin-top:15px;
+}
+
+#pedido{
+	width:850px;
+	padding:10px;
+	border:1px groove #b19e90;
+	float:right;
+}
+
+#pedido h1{
+	font-size:17px;
+	margin: 0px 0px 20px 0px;
+}
+
+#pedido label{
+	width:100px;
+	float:left;
+	clear:left;
+	padding:5px;
+	margin-bottom:5px;
+}
+
+#pedido input{ 
+	width:650px;
+	float: left;
+	clear: left;
+	padding: 5px;
+	margin-bottom: 7px;
+	border: 1px groove #b19e90;
+}
+
+#pedido.enviar{
+	width:60px;
+	float:right;
+	padding:5px;
+	margin:0px;
+}
+
+#pedido .enviar:active{
+	border: 1px inset #998566;
+	background-color:#e9e3da;
+}
